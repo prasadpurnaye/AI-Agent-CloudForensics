@@ -14,43 +14,29 @@ Moreover, the tool includes a new feature set for evidence classification, and i
 Researchers and academicians will find this tool useful for studying cloud forensics in depth. It can also be useful to generate synthetic datasets, study the correlation of attacks on the resource activities, live memory forensics, and smart monitoring applications in a Private Cloud Platform supported by libvirt.
 
 
-<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(4).png" width="550" >
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(4).png" width="600" >
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(5).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(6).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(7).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(8).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(9).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(10).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(11).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(12).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(13).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(14).png" width="600" >
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(15).png" width="600" >
 
 
-
-
-
-
-![Screenshot](?raw=true "Optional Title" |width=100)
-
-![Screenshot2](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(5).png | width=100)
-
-![Screenshot3](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(6).png | width=100)
-
-![Screenshot4](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(7).png | width=100)
-
-![Screenshot5](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(8).png | width=100)
-
-![Screenshot6](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(9).png | width=100)
-
-![Screenshot7](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(10).png | width=100)
-
-![Screenshot8](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(11).png | width=100)
-
-![Screenshot9](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(12).png | width=100)
-
-![Screenshot10](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(13).png | width=100)
-
-![Screenshot11](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(14).png | width=100)
-
-![Screenshot12](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(15).png | width=100)
-
-![Screenshot13](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(16).png | width=100)
-
-![Screenshot14](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(17).png | width=100)
-
-![Screenshot15](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(18).png )
-
-<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width="150" height="280">
 
 
