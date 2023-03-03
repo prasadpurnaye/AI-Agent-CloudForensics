@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Purnaye"
+  given-names: "Prasad"
+  orcid: "https://orcid.org/0000-0002-0224-2762"
+
+title: "AI-Agent-CloudForensics"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2023-03-03
+url: "https://github.com/prasadpurnaye/AI-Agent-CloudForensics"
