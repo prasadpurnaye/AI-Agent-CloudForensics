@@ -16,7 +16,9 @@ Researchers and academicians will find this tool useful for studying cloud foren
 
 
 ![Screenshot](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(4).png | width=100)
+
 ![Screenshot](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(5).png | width=100)
+
 ![Screenshot](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(6).png | width=100)
 ![Screenshot](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(7).png | width=100)
 ![Screenshot](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(8).png | width=100)
