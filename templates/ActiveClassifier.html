@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>AI Agent</title>
+
+    <!-- Custom fonts for this template -->
+    <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+
+        rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="static/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="static/css/slider.css" rel="stylesheet">
+
+
+</head>
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+      <!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="\">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-hamsa"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Smart Hypervisor Monitoring<sup></sup></div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item">
+        <a class="nav-link" href="\">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Smart Dashboard</span></a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Machine Learning
+    </div>
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+            aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fas fa-fw fa-cog"></i>
+            <span>LibVirt Monitoring</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">My Datasets:</h6>
+                <a class="collapse-item" href="/MonitoringDatabase">Monitoring Dataset</a>
+                <a class="collapse-item" href="/TrainingDataset">Training Dataset</a>
+                <h6 class="collapse-header">Preloaded Dataset:</h6>
+                <a class="collapse-item" href="/preloadedDataset">Preloaded Dataset</a>
+            </div>
+        </div>
+    </li>
+
+<hr class="sidebar-divider">
+    <!-- Nav Item - Utilities Collapse Menu -->
+    <li class="nav-item active">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+            aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-fw fa-wrench"></i>
+            <span>AI Agent</span>
+        </a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Classification :</h6>
+                <a class="collapse-item" href="/ActiveClassifier">Active Classifier</a>
+                <a class="collapse-item" href="/AutoSkLearn">Auto Scikit Learn</a>
+
+            </div>
+        </div>
+    </li>
+<hr class="sidebar-divider">
+     <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities2"
+            aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Evidence Provenance</span>
+        </a>
+        <div id="collapseUtilities2" class="collapse" aria-labelledby="headingUtilities"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Acquisition :</h6>
+                <a class="collapse-item" href="/acquire">Memory Dump Dataset</a>
+                <a class="collapse-item" href="/volatile">BlockChain database</a>
+
+
+            </div>
+        </div>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider d-none d-md-block">
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+
+</ul>
+<!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+
+                              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+
+
+
+
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="/profile" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{Investigator}}</span>
+                                <img class="img-profile rounded-circle"
+                                    src="static/img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="/profile">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/logout" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+                <!-- Begin Page Content -->
+                 <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                  <div class="col-xl  mb-4">
+                                      <div class="card border-bottom-primary shadow h-100 py-2">
+                                          <div class="card-body">
+                                              <div class="row no-gutters align-items-center">
+                                                  <div class="col mr-2">
+                                                      <div class="text-xl font-weight-bold text-primary text-uppercase mb-1">
+                                                          Active Classifier</div>
+                                                      <div class=" text-gray-800" >Name  ={{ActiveModel[0]}}</div>
+                                                        <div class=" text-gray-800" >Accuracy of the Model ={{ActiveAccuracy}}</div>
+                                                        <div class=" text-gray-800">No of Parameters used ={{ActiveParams|length -1}}</div>
+                                                        <div class=" text-gray-800">Parameters ={{ActiveParams}}</div>
+                                                  </div>
+
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+<!-- Row -->
+        <div class="row mb-4" >
+          <div class="card shadow col-xl-8 col-lg-7">
+              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary" >Classifier Accuracy</h6><h6 class="m-0 font-weight-bold text-primary" id="CA" >0</h6>
+              </div>
+              <div class="card-body">
+
+                <font size="3px"  >
+                  <h6 class="m-0 font-weight-bold text-primary" >Confusion Matrix</h6>
+                <table class="table">
+                  <tr>
+                    <th></th>
+                    <th>Attack</th>
+                    <th>Normal</th>
+                  </tr>
+
+                  <tr>
+                    <th>Attack</th>
+                    <td class=" text-gray-800"  id="a">0</td>
+                    <td class=" text-gray-800"  id="b">0</td>
+                  </tr>
+
+                  <tr >
+                    <th >Normal</th>
+                    <td id="c">0</td>
+                    <td id="d">0</td>
+
+                  </tr>
+                </table>
+                <h6 class="m-0 font-weight-bold text-primary" >Report</h6>
+                <table class="table">
+                  <tr>
+                    <th></th>
+                    <th>f1-score</th>
+                    <th>precision</th>
+                    <th>recall</th>
+                    <th>support</th>
+                  </tr>
+                  <tr>
+                    <th>Attack</th>
+                    <th id="Attack1">0</th>
+                    <th id="Attack2">0</th>
+                    <th id="Attack3">0</th>
+                    <th id="Attack4">0</th>
+                  </tr>
+                  <tr>
+                    <th>Normal</th>
+                    <td id="Normal1">0</th>
+                    <td id="Normal2">0</th>
+                    <td id="Normal3">0</th>
+                    <td id="Normal4">0</th>
+                  </tr>
+                  <tr>
+                    <th>Macro avg</th>
+                    <td id="Macro1">0</th>
+                    <td id="Macro2">0</th>
+                    <td id="Macro3">0</th>
+                    <td id="Macro4">0</th>
+                  </tr>
+                  <tr>
+                    <th>weighted avg</th>
+                    <td id="weighted1">0</th>
+                    <td id="weighted2">0</th>
+                    <td id="weighted3">0</th>
+                    <td id="weighted4">0</th>
+                  </tr>
+                </table>
+                <h6 class="m-0 font-weight-bold text-primary" >Parameters</h6>
+                <h6 class="m-0 " id="RadioParams" >--</h6>
+                </font>
+              </div>
+
+          </div>
+
+          <div class="card shadow col-xl-4 col-lg-5">
+            <form action="/SetClassifier" method="post">
+              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Change Active Classifier</h6>
+
+              </div>
+              <font size="4px"  >
+
+                {%for model in SavModels%}
+                <div class="card-body">
+                <div class="row no-gutters align-items-center" >
+                  <input type="radio" id="model" name="SelectedModel" onclick="handleClick(this);"value="{{model}}">
+                  <label for="{{model}}"> {{model}}</label>
+                </div>
+                </div>
+                {%endfor%}
+              </font>
+
+                <input class= "btn btn-primary " type="submit" value="Make Active Classifier">
+              </form>
+          </div>
+
+
+        </div>
+<!-- End Row -->
+<!-- Row -->
+
+<div class="row mb-4">
+  <form action="/Retrain" method="POST">
+
+      <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+        <h6 class="m-0 font-weight-bold text-primary" >Retrain Model </h6>
+      </div>
+                    <div class="row mb-4">
+                    {% for item in data.columns %}
+                      <div class="col-xl-3 col-md-6 mb-4">
+                          <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+
+
+
+                                          <label class="switch">
+                                            <input type="checkbox" id="{{ item }}" name="Array" value="{{ item }}">
+
+
+                                            <span class="slider round"></span>
+                                          </label>
+                                          <label for="{{ item }}"> {{ item }} </label>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  {% endfor %}
+                  </div>
+
+
+
+
+</div>
+
+
+                                  <h6>Using
+                                    <span id="demo" ></span>  % for training and
+                                    <span id="demo2"> </span>% for testing
+                                  </h6>
+
+                                <div class="progress mb-4">
+                                    <input class="progress mb-4" name="accessValue" type="range" style="width: 100%"  min="10" max="95" value="50" role="progressbar" id="myRange" name="train_size">
+                                </div>
+                                <input class="btn btn-facebook btn-block" type="submit" value="Train Model with modifications">
+                                </form>
+<!-- End Row -->
+
+
+        </div><!--Container END-->
+        <!-- End of Content Wrapper -->
+
+        <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Maintained by Prasad Purnaye</span>
+                        </div>
+                    </div>
+                </footer>
+    </div>
+    <!-- End of Page Wrapper -->
+
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="/logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script>
+    <!-- Bootstrap core JavaScript-->
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    var output2 = document.getElementById("demo2");
+
+    output.innerHTML = slider.value;
+    output2.innerHTML = 100-slider.value;
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+      output2.innerHTML =100-this.value;
+
+    }
+    function handleClick(SelectedModel) {
+      $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+
+      $.getJSON($SCRIPT_ROOT+"/_model"+SelectedModel.value,
+          function(data) {
+
+            document.getElementById("CA").textContent=data["Accuracy"];
+            document.getElementById("a").textContent=data["confusionMtx"][0][0];
+            document.getElementById("b").textContent=data["confusionMtx"][0][1];
+            document.getElementById("c").textContent=data["confusionMtx"][1][0];
+            document.getElementById("d").textContent=data["confusionMtx"][1][1];
+
+            document.getElementById("Attack1").textContent=data["report"]["Attack"]["f1-score"];
+            document.getElementById("Attack2").textContent=data["report"]["Attack"]["precision"];
+            document.getElementById("Attack3").textContent=data["report"]["Attack"]["recall"];
+            document.getElementById("Attack4").textContent=data["report"]["Attack"]["support"];
+
+            document.getElementById("Normal1").textContent=data["report"]["Normal"]["f1-score"];
+            document.getElementById("Normal2").textContent=data["report"]["Normal"]["precision"];
+            document.getElementById("Normal3").textContent=data["report"]["Normal"]["recall"];
+            document.getElementById("Normal4").textContent=data["report"]["Normal"]["support"];
+
+            document.getElementById("Macro1").textContent=data["report"]["macro avg"]["f1-score"];
+            document.getElementById("Macro2").textContent=data["report"]["macro avg"]["precision"];
+            document.getElementById("Macro3").textContent=data["report"]["macro avg"]["recall"];
+            document.getElementById("Macro4").textContent=data["report"]["macro avg"]["support"];
+
+            document.getElementById("weighted1").textContent=data["report"]["weighted avg"]["f1-score"];
+            document.getElementById("weighted2").textContent=data["report"]["weighted avg"]["precision"];
+            document.getElementById("weighted3").textContent=data["report"]["weighted avg"]["recall"];
+            document.getElementById("weighted4").textContent=data["report"]["weighted avg"]["support"];
+
+            document.getElementById("RadioParams").textContent=data["params"];
+          });
+
+
+
+  }
+    </script>
+    <script src="static/vendor/jquery/jquery.min.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="static/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="static/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="static/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="static/js/demo/datatables-demo.js"></script>
+
+</body>
+
+</html>
