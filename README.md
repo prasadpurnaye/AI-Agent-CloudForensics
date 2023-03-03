@@ -13,7 +13,9 @@ Moreover, the tool includes a new feature set for evidence classification, and i
 
 Researchers and academicians will find this tool useful for studying cloud forensics in depth. It can also be useful to generate synthetic datasets, study the correlation of attacks on the resource activities, live memory forensics, and smart monitoring applications in a Private Cloud Platform supported by libvirt.
 
-<img src=https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(4).png" width=50% height=50%>
+
+<img src="https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(4).png" width="150" height="280">
+
 
 
 
@@ -49,4 +51,6 @@ Researchers and academicians will find this tool useful for studying cloud foren
 
 ![Screenshot15](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(18).png )
 
-![Screenshot16](https://github.com/prasadpurnaye/AI-Agent-CloudForensics/blob/main/Screenshots/Screenshot%20(19).png )
+<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width="150" height="280">
+
+
